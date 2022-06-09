@@ -8,7 +8,6 @@
 }
 
 body {
-    /* color: white; */
     padding: 0;
     margin: 0;
     background: url('./images/pexels-vazhnik-7864423.jpg') no-repeat;
@@ -21,7 +20,6 @@ body {
 
 .logo {
     display: inline-block;
-    /* border: 2px solid red; */
     position: absolute;
     left: 180px;
     top: 60px;
@@ -199,13 +197,7 @@ body {
 
 }
 
-/* .flex-button ul {
-    overflow: auto;
-}
 
-.flex-button li {
-    float: right;
-} */
 
 .copyright {
     position: absolute;
