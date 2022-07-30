@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Lora&family=Source+Sans+Pro:wght@300&display=swap');
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%);
+    --color-dark-gray: hsl(0, 0%, 55%);
+    --color-very-dark-gray: hsl(0, 0%, 41%);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url('./images/pexels-vazhnik-7864423.jpg') no-repeat;
+    height: 100%;
+    line-height: 1.5;
+    background-size: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 180px;
+    top: 60px;
+}
+
+.navbar {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: rgb(17, 16, 16);
+    text-decoration: none;
+    padding: 34px 23px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.hero {
+    margin: 165px;
+    margin-top: 215px;
+    padding: 30px;
+    padding-right: 165px;
+    border: 4px solid white;
+    text-transform: uppercase;
+    max-width: 23ch;
+    font-size: 26px;
+}
+
+
+
+.leader-section {
+    width: 75vh;
+    min-height: 100vh;
+    padding: 12rem 0;
+    margin: 218px;
+    display: flex;
+    text-align: center;
+    margin-bottom: -39rem;
+    padding-bottom: 0;
+}
+
+.leader-section img {
+    height: 480px;
+    width: 700px;
+}
+
+.leader-section .intro-text {
+    z-index: 2;
+    background: white;
+    position: relative;
+    margin-top: 40%;
+    margin-left: -51%;
+    text-align: center;
+    padding: 3rem;
+    margin-right: -480px;
+    margin-bottom: 28rem;
+}
+
+.leader-section .intro-text .head {
+    /* font-size:3rem; */
+    font-family: "josefin Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px 0 0px;
+}
+
+.leader-section .intro-text .head .para {
+    color: hsl(0, 5%, 52%);
+    font-family: 'Fredoka', sans-serif;
+}
+
+.creation-head {
+    position: absolute;
+    left: 220px;
+    margin-top: -80px;
+    font-size: 35px;
+}
+
+.see-all {
+    position: absolute;
+    right: 180px;
+    margin-top: -80px;
+    border: 2px solid black;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 35px;
+    background-color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.see-all:hover {
+    color: white;
+    background-color: black;
+}
+
+.creation-list div p {
+    margin-top: -80px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    width: 60%;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* text-align: center; */
+
+}
+
+
+.creation-list {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5em;
+    margin-top: 20rem;
+    padding-left: 120px;
+    padding-right: 0;
+}
+
+.creator-section div img {
+    width: 245px;
+    height: 430px;
+    image-rendering: pixelated;
+}
+
+.footer {
+    background-color: rgb(238, 122, 128);
+}
+
+.bottom-logo img {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.footer-nav {
+    display: inline-block;
+
+}
+
+.footer-nav li {
+    list-style-type: none;
+    float: left;
+}
+
+.footer-nav ul {
+    overflow: auto;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    padding: 3px 15px;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a.active {
+    text-decoration: underline;
+    color: rgb(48, 46, 46);
+
+}
+
+
+
+.copyright {
+    position: absolute;
+    right: 60px;
+    color: rgb(12, 11, 11);
+    font-family: 'Fredoka', sans-serif;
+}
